@@ -12,7 +12,7 @@
   $email = mysqli_real_escape_string($connection, $email);
 
   $hashFormat ="$2y$10$";
-  $salty = "EmilHasGayEmilHasGdsayE";
+  $salty = "EEEEEEEEEMMMMMMMMIILLLLL";
 
   $saltyHash = $hashFormat . $salty;
 
